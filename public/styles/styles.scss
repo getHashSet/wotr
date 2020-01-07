@@ -1,0 +1,46 @@
+/* ========================= */
+/* ===      Imports      === */
+/* ========================= */
+
+@import url("/public/styles/__vars.scss");
+
+/* ========================= */
+/* ===      Chapters     === */
+/* ========================= */
+
+.hero {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 50%;
+    }
+
+    div {
+        visibility: hidden;
+        position: absolute;
+        bottom: 2em;
+    }
+}
+
+.c1 {
+    width: 100%;
+    min-height: 40vh;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .root {
+        max-width: 1200px;
+
+        h2 {
+            width: 100%;
+        }
+    }
+}

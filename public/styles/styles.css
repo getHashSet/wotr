@@ -1,3 +1,45 @@
-.list-group-item {
-  line-height: 2.5;
-}
+/* ========================= */
+/* ===      Imports      === */
+/* ========================= */
+@import url("/public/styles/__vars.scss");
+/* ========================= */
+/* ===      Chapters     === */
+/* ========================= */
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .hero img {
+    width: 50%; }
+  .hero div {
+    visibility: hidden;
+    position: absolute;
+    bottom: 2em; }
+
+.c1 {
+  width: 100%;
+  min-height: 40vh;
+  background-color: #f1f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .c1 .root {
+    max-width: 1200px; }
+    .c1 .root h2 {
+      width: 100%; }
